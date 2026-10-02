@@ -16,8 +16,7 @@ function Services({reference}) {
             </div>
             <div className='border rounded-xl bg-[#EADCC3] border-[#EADCC3] w-8/10 p-4'>
                 <h1 className='font-bold text-3xl'>Interior Painting</h1>
-            </div>
-            <div></div>
+            </div>         
         </div>
     </div>
   )
