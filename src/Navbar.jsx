@@ -43,7 +43,7 @@ export default function Navbar({linkFunction}) {
 
   return (
     <>
-      <nav className='bg-white fixed sm:static right-0 left-0'>
+      <nav className='bg-[#EADCC3] fixed sm:static right-0 left-0'>
         <div className='text-nowrap sm:text-wrap text-center font-semibold text-xl sm:text-2xl text-221F1A md:tracking-wider '>
           <div className='flex flex-col py-6 sm:py-8 gap-y-1 sm:gap-y-8 sm:gap-x-12'>
             <div className='font-story text-3xl sm:text-5xl font-normal '> Painter's World </div>
