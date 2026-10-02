@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kedebideri:wght@400;500;600;700;800;900&family=Story+Script&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-verdana: "Verdana", sans-serif;
+    --font-kede: "Kedebideri", sans-serif;
+    --font-story: 'Story Script', cursive;
+}   
+
+
+:root {
+    font-family: var(--font-kede);
+    background-color: #d9bfa8;
+    color: #5C4033;
+} 
