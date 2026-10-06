@@ -16,7 +16,7 @@ function NavLink({children, linkFunction}){
 
   const hoverClass = 
     hover
-    ? 'cursor-pointer transition transition-all transition-discrete duration-100 text-white drop-shadow-sm drop-shadow-white'
+    ? 'cursor-pointer transition transition-none xl:transition-all transition-discrete duration-100 xl:text-white xl:drop-shadow-sm xl:drop-shadow-white'
     : undefined;
   
   return(

@@ -29,7 +29,7 @@ function App() {
       });
     } else {
       window.scrollTo({
-        top: elementRef.current.offsetTop,
+        top: elementRef.current.offsetTop - 50,
         behavior: "smooth",
       });
     }
