@@ -16,11 +16,11 @@ function NavLink({children, linkFunction}){
 
   const hoverClass = 
     hover
-    ? 'cursor-pointer transition transition-none xl:transition-all transition-discrete duration-100 xl:text-white xl:drop-shadow-sm xl:drop-shadow-white'
+    ? 'cursor-pointer transition transition-all transition-discrete duration-100 text-white drop-shadow-sm drop-shadow-white'
     : undefined;
   
   return(
-    <a onClick={linkFunction} className={hoverClass} onMouseEnter={toggleHover} onMouseLeave={toggleHover}> {children} </a>
+    <a onClick={linkFunction} className={hoverClass} onPointerEnter={toggleHover} onPointerLeave={toggleHover}> {children} </a>
   );
   //<a className={hoverClass} id='1' onMouseEnter={toggleHover} onMouseLeave={toggleHover}>Home</NavLink>
 }

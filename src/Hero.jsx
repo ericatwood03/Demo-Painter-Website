@@ -1,7 +1,16 @@
 import React from 'react'
+import { useState } from 'react';
 import PaintJob from './assets/paintjob.jpg'
 
-function Hero({reference}) {
+function Hero({reference, linkFunction}) {
+  const [hover, setHover] = useState(false);
+  const toggleHover = () => setHover(!hover); 
+
+  const hoverClass = 
+    hover
+    ? ' transition transition-all transition-discrete cursor-pointer p-2 bg-[#996515] rounded-sm text-3xl font-bold text-white text-shadow-lg/50'
+    : ' transition transition-all transition-discrete cursor-pointer p-2 bg-[#996515] rounded-sm text-2xl font-bold text-black';
+
   return (
     <div 
         ref={reference}
@@ -14,7 +23,10 @@ function Hero({reference}) {
             <h1 className=''>Transforming Homes With Quality Craftmanship</h1>
           </div>
           <div className='pt-10'>
-            <button className='cursor-pointer p-2 bg-[#996515] rounded-sm text-2xl font-bold text-black'>
+            <button 
+              onPointerEnter={toggleHover} onPointerLeave={toggleHover} onClick={() => linkFunction('sec6')} 
+              className={hoverClass}
+            >
               Get A Free Quote
             </button>
           </div>
