@@ -9,6 +9,7 @@ function DropButton({isUp}) {
     return <LuCircleChevronDown />
   }
 }
+
 function NavLink({children, linkFunction}){
   
   const [hover, setHover] = useState(false);
@@ -56,7 +57,7 @@ export default function Navbar({linkFunction}) {
               <NavLink linkFunction={() => linkFunction("sec6")}>Contact</NavLink>
             </div>
             <button onClick={handleClick} className='inline sm:hidden self-center transition transition-all'>
-              <DropButton isUp={showDropdown}  />
+              <DropButton isUp={showDropdown} />
             </button>
           </div>
         </div>
