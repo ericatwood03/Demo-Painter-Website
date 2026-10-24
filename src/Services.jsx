@@ -43,7 +43,7 @@ function Bar({title, children}){
 function Services({reference}) {
 
   return (
-    <div ref={reference} className='my-20'>
+    <div ref={reference} className='flex flex-col my-20'>
         <h1 className='justify-self-center place-self-center text-5xl font-extrabold mb-15'>Services</h1>
         <div className='flex flex-col place-items-center justify-center gap-y-8'>
             <Bar title = 'Interior Painting'>
