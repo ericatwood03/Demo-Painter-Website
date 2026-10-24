@@ -35,7 +35,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className='absolute'>
       <Navbar linkFunction={scrollToSection}/>
       <Hero reference={sections.sec1} linkFunction={scrollToSection}/>
       <Services reference={sections.sec2} />
