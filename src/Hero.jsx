@@ -14,7 +14,7 @@ function Hero({reference, linkFunction}) {
   return (
     <div 
         ref={reference}
-        className='h-100 md:h-200 bg-cover bg-right lg:bg-center -mt-2 bg-gray-600 bg-blend-multiply'
+        className='justify-content-center h-100 md:h-200 bg-cover bg-right lg:bg-center -mt-2 bg-gray-600 bg-blend-multiply'
         style={{ backgroundImage: `url(${PaintJob})` }}
       >
         <div className='flex flex-col-reverse md:flex-col place-items-center pt-25 md:pt-120 sm:text-2xl md:text-3xl font-bold text-white gap-y-10'>
