@@ -2,7 +2,7 @@ import React from 'react'
 
 function About({reference}) {
   return (
-    <div ref={reference} className='flex flex-col h-auto sm:h-260 content-center bg-[#F8F4ED]'>
+    <div ref={reference} className='flex flex-col h-auto sm:h-260 bg-[#F8F4ED]'>
         <div className=' rounded-xl flex flex-col justify-self-center place-self-center items-center w-8/10 max-w-120 bg-[#EADCC3] gap-y-8 px-2 sm:px-25 py-14 my-20'>
             <h1 className=' text-5xl font-extrabold'> About Us </h1>
             <p className=' text-lg sm:text-xl'>
