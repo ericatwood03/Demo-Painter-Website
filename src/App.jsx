@@ -18,7 +18,6 @@ function App() {
     sec5: useRef(null),
     sec6: useRef(null),
   }
-  //s
 
   const scrollToSection = (section) => {
     const elementRef = sections[section]
