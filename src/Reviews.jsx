@@ -2,8 +2,8 @@ import React from 'react'
 
 function Reviews({reference}) {
   return (
-    <div  ref={reference} className='bg-[#F8F4ED]'>
-        <div className='justify-self-center w-8/10 2xl:w-5/10 py-18'>
+    <div  ref={reference} className='flex flex-col bg-[#F8F4ED]'>
+        <div className='place-self-center w-8/10 2xl:w-5/10 py-18'>
             <div className="zyff-testimonials"
                 data-zyff-widget="testimonials"
                 data-zyff-id="Yig3RSYTxrG4vg">  

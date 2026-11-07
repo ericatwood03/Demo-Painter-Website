@@ -9,6 +9,7 @@
 
 
 :root {
+    overscroll-behavior: none;
     font-family: var(--font-kede);
     background-color: #d9bfa8;
     color: #5C4033;

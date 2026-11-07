@@ -27,7 +27,7 @@ function NavLink({children, linkFunction}){
 }
 
 export default function Navbar({linkFunction}) {
-  const [showDropdown, setShowDropDown] = useState(true);
+  const [showDropdown, setShowDropDown] = useState(false);
   // const linkClass = ({isActive}) => 
   //   isActive 
   //     ? 'text-white drop-shadow-sm drop-shadow-white'
@@ -35,7 +35,7 @@ export default function Navbar({linkFunction}) {
   const dropdownClass = 
     showDropdown
       ? 'max-h-100 transition-all transition-discrete duration-300 flex flex-col sm:flex-row gap-x-10 gap-y-4 sm:gap-y-0 justify-center'
-      : 'max-h-0 transition-all transition-discrete duration-300 overflow-hidden flex flex-col sm:flex-row gap-x-10 gap-y-4 sm:gap-y-0 justify-center';
+      : 'max-h-0 transition-all transition-discrete duration-300 overflow-hidden flex flex-col sm:flex-row gap-x-10 gap-y-4 sm:gap-y-0 justify-center sm:max-h-100';
   
     
   function handleClick() {
