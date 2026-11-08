@@ -20,7 +20,7 @@ function Bar({title, children}){
     
     const serviceClass =
         showDropdown
-        ? 'max-h-100 transition transition-all transition-discrete duration-300'
+        ? 'max-h-150 transition transition-all transition-discrete duration-300'
         : 'max-h-0 transition transition-all transition-discrete duration-300 overflow-hidden -mb-3'
     
     return (
