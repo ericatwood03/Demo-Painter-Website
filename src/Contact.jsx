@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact({reference}) {
   return (
-    <div   ref={reference} className='py-20'>
+    <div ref={reference} className='py-20'>
         <div className='justify-items-center'>
             <form className="flex flex-col sm:text-xl px-10 items-center py-30 rounded-lg bg-[#EADCC3] gap-y-6 max-w-90 sm:max-w-full w-full sm:w-auto" action="" method='post'>
                 <h1 className='font-extrabold text-5xl -mt-20 pb-20 text-nowrap '>Contact Us</h1>
