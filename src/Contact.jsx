@@ -28,7 +28,7 @@ function Contact({reference}) {
                 </div>
                 <div className='w-full flex flex-col items-start'>
                     <label className="font-bold" htmlFor="message">Message</label>
-                    <textarea className='border rounded-sm px-1 self-center' id="message" name="message" placeholder='Tell us about your project...' rows="3" cols="44" required></textarea>
+                    <textarea className='border rounded-sm px-1' id="message" name="message" placeholder='Tell us about your project...' rows="3" cols="44" required></textarea>
                 </div>
                 <div className='self-center translate-y-20'>
                     <input className="text-white text-2xl font-extrabold border bg-[#996515] border-[#996515] rounded-lg px-3 py-1" type="submit"/>
