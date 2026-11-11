@@ -4,9 +4,9 @@ function Contact({reference}) {
   return (
     <div ref={reference} className='py-20'>
         <div className='w-full flex justify-center'>
-            <form className="flex flex-col sm:text-xl px-10 items-center py-30 rounded-lg bg-[#EADCC3] gap-y-6 max-w-90 sm:max-w-auto w-full sm:w-auto" action="" method='post'>
+            <form className="flex flex-col sm:text-xl px-10 justify-center items-center py-30 rounded-lg bg-[#EADCC3] gap-y-6 max-w-90 sm:max-w-auto w-full sm:w-auto" action="" method='post'>
                 <h1 className='font-extrabold text-5xl -mt-20 pb-20 text-nowrap '>Contact Us</h1>
-                <div className='flex flex-row gap-2 justify-content-center'>
+                <div className='flex flex-row gap-2 justify-content-center w-full'>
                     <div className='flex flex-col'>
                     <label className="font-bold" htmlFor="fname" >First Name</label>
                     <input className='border rounded-sm px-1' type="text" id="fname" name="fname" placeholder='Joe' required></input>
