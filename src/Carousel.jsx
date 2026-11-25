@@ -13,14 +13,14 @@ function Carousel() {
 
     const hoverLeftClass = 
         hoverLeft
-        ? 'absolute self-center text-7xl text-[#F8F4ED] left-1 2xl:left-45 2xl:text-9xl border rounded-full border-gray-600 bg-gray-600 transition transition-colors transition-transform transition-discrete duration-200 ease-in-out'
+        ? 'absolute cursor-pointer self-center text-7xl text-[#F8F4ED] left-1 2xl:left-45 2xl:text-9xl border rounded-full border-gray-600 bg-gray-600 transition transition-colors transition-transform transition-discrete duration-200 ease-in-out'
         : 'absolute self-center text-7xl text-[#5C4033] left-1 2xl:left-45 2xl:text-9xl transition delay-450 transition-colors transition-transform transition-discrete duration-200 ease-in-out';
     
     const toggleHoverLeft = () => setHoverLeft(!hoverLeft);
     
     const hoverRightClass = 
         hoverRight
-        ? 'absolute self-center text-7xl text-[#F8F4ED] right-1 2xl:right-45 2xl:text-9xl border rounded-full border-gray-600 bg-gray-600 transition transition-colors transition-transform transition-discrete duration-200 ease-in-out'
+        ? 'absolute cursor-pointer self-center text-7xl text-[#F8F4ED] right-1 2xl:right-45 2xl:text-9xl border rounded-full border-gray-600 bg-gray-600 transition transition-colors transition-transform transition-discrete duration-200 ease-in-out'
         : 'absolute self-center text-7xl text-[#5C4033] right-1 2xl:right-45 2xl:text-9xl transition delay-450 transition-colors transition-transform transition-discrete duration-200 ease-in-out';
     
     const toggleHoverRight = () => setHoverRight(!hoverRight);

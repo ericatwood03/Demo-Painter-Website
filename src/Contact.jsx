@@ -31,7 +31,7 @@ function Contact({reference}) {
                     <textarea className='w-full box-border border rounded-sm px-1' id="message" name="message" placeholder='Tell us about your project...' rows="3" cols="44" required></textarea>
                 </div>
                 <div className='self-center translate-y-20'>
-                    <input className="text-white text-2xl font-extrabold border bg-[#996515] border-[#996515] rounded-lg px-3 py-1" type="submit"/>
+                    <input className="text-white text-2xl cursor-pointer font-extrabold border bg-[#996515] border-[#996515] rounded-lg px-3 py-1" type="submit"/>
                 </div>
             </form>
         </div>
